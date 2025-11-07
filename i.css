@@ -27,7 +27,14 @@ header {
     background: linear-gradient(135deg, #d6e9ff 0%, #f8fbff 100%);
     overflow: hidden;
 }
-
+.author-info {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+}
 header::before {
     content: "";
     position: absolute;
@@ -402,3 +409,4 @@ footer::before {
         width: 100%;
     }
 }
+
